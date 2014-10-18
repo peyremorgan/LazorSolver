@@ -1,0 +1,29 @@
+﻿La génération a démarré 18/10/2014 23:55:25.
+     1>Projet "C:\Users\Paul\Documents\Visual Studio 2013\Projects\LazorSolver\lazorSolver\lazorSolver\lazorSolver.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         D:\code\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Main.cpp Point.cpp Square.cpp
+         Main.cpp
+         Point.cpp
+         Square.cpp
+         Génération de code en cours...
+         D:\code\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Paul\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         D:\code\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\LazorSolver\lazorSolver\Debug\lazorSolver.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Paul\Documents\Visual Studio 2013\Projects\LazorSolver\lazorSolver\Debug\lazorSolver.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Main.obj
+         Debug\Point.obj
+         Debug\Square.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>Point.obj : error LNK2005: "bool __cdecl operator==(class Point const &,class Point const &)" (??8@YA_NABVPoint@@0@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Point.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Point.obj : error LNK2005: "bool __cdecl operator==(class Point const &,class Point const &)" (??8@$$FYA_NABVPoint@@0@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Point.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@$$FYAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Square.obj : error LNK2005: "bool __cdecl operator==(class Point const &,class Point const &)" (??8@YA_NABVPoint@@0@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Square.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Square.obj : error LNK2005: "bool __cdecl operator==(class Point const &,class Point const &)" (??8@$$FYA_NABVPoint@@0@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>Square.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@$$FYAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) dÚjÓ dÚfini(e) dans Main.obj
+     1>C:\Users\Paul\Documents\Visual Studio 2013\Projects\LazorSolver\lazorSolver\Debug\lazorSolver.exe : fatal error LNK1169: un ou plusieurs symboles dÚfinis Ó diffÚrentes reprises ont ÚtÚ rencontrÚs
+     1>Génération du projet "C:\Users\Paul\Documents\Visual Studio 2013\Projects\LazorSolver\lazorSolver\lazorSolver\lazorSolver.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.42

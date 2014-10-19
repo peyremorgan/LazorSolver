@@ -10,14 +10,14 @@ using namespace std;
 
 int main()
 {
-	const int width = 5;
-	const int height = 5;
+	const int width{ 5 };
+	const int height{ 5 };
 
-	list<Point> allPoints;
-	list<Point> toBeActivated;
+	list<Point> allPoints{};
+	list<Point> toBeActivated{};
 
-	list<Square> allSquares;
-	list<Square> possibleSquares;
+	list<Square> allSquares{};
+	list<Square> possibleSquares{};
 
 	//Génère la liste des points où peuvent passer les lasers
 	for (int i = 0; i < 2 * width + 1; ++i)

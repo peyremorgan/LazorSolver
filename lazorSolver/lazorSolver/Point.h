@@ -1,4 +1,5 @@
 #pragma once
+
 #include "iostream"
 
 class Point
@@ -14,17 +15,10 @@ public:
 
 	bool operator==(Point const& a)
 	{
-		return this->x == a.x && this->y == a.y ? true : false;
+		return this->x == a.x && this->y == a.y;
 	}
 };
 
-bool operator==(Point const& a, Point const& b)
-{
-	return a.x == b.x && a.y == b.y;
-}
+bool operator==(Point const& a, Point const& b);
 
-std::ostream& operator<<(std::ostream& flux, Point const& point)
-{
-	flux << "x=" << point.x << ", y=" << point.y;
-	return flux;
-}
+std::ostream& operator<<(std::ostream& flux, Point const& point);

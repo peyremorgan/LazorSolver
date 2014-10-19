@@ -23,16 +23,16 @@ int main()
 	for (int i = 0; i < 2 * width + 1; ++i)
 		for (int j = 0; j < 2 * height + 1; ++j)
 			if (i % 2 != j % 2)
-				allPoints.push_back(Point(i, j));
+				allPoints.push_back(Point{ i, j });
 
 	//Génère la liste des carrés possibles
 	for (int i = 0; i < width; ++i)
 		for (int j = 0; j < height; ++j)
-			allSquares.push_back(Square(i, j));
+			allSquares.push_back(Square{ i, j });
 
-	cout << (Point(2, 3) == Point(2, 3)) << endl;
-	cout << (Point(2, 3) == Point(3, 3)) << endl;
-	cout << Point(2,3) << endl;
+	cout << (Point{ 2, 3 } == Point{ 2, 3 }) << endl;
+	cout << (Point{ 2, 3 } == Point{ 3, 3 }) << endl;
+	cout << Point{ 2, 3 } << endl;
 
 	getchar();
 

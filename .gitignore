@@ -29,3 +29,7 @@
 
 # Temporary files
 *.opensdf
+
+# Log files
+*.tlog
+*.log

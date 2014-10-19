@@ -12,11 +12,6 @@ public:
 	int x;
 	int y;
 	bool active;
-
-	bool operator==(Point const& a)
-	{
-		return this->x == a.x && this->y == a.y;
-	}
 };
 
 bool operator==(Point const& a, Point const& b);

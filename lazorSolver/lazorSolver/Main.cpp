@@ -1,8 +1,8 @@
-// test.cpp : définit le point d'entrée pour l'application console.
+// Main.cpp : définit le point d'entrée pour l'application console.
 //
 
-#include "iostream"
-#include "list"
+#include <iostream>
+#include <vector>
 #include "Point.h"
 #include "Square.h"
 
@@ -13,11 +13,11 @@ int main()
 	const int width{ 5 };
 	const int height{ 5 };
 
-	list<Point> allPoints{};
-	list<Point> toBeActivated{};
+	vector<Point> allPoints{};
+	vector<Point> toBeActivated{};
 
-	list<Square> allSquares{};
-	list<Square> possibleSquares{};
+	vector<Square> allSquares{};
+	vector<Square> possibleSquares{};
 
 	//Génère la liste des points où peuvent passer les lasers
 	for (int i = 0; i < 2 * width + 1; ++i)

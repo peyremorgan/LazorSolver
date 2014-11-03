@@ -6,7 +6,9 @@
 #include "Point.h"
 #include "Square.h"
 
-using namespace std;
+using std::vector;
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -38,4 +40,3 @@ int main()
 
 	return 0;
 }
-
